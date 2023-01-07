@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&family=Roboto:wght@100&display=swap');
+
+body {
+    background-image:url("https://img.freepik.com/free-vector/orange-question-mark-background-with-text-space_1017-27394.jpg?w=2000");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.inner {
+   
+    background-color: white;
+    padding: 10px;
+   margin-top: 10%;
+   margin-right: 30%;
+   width: 50%;
+   background-color: rgb(8, 8, 8);
+   color: white;
+  
+}
+#buton{
+    background-color: cornflowerblue;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid transparent;
+    outline: none;
+}
+#buton:hover{
+   
+    border: 1px solid black;
+ 
+}
+
+ h2{
+    padding:7px 7px 7px 7px ;
+    font-size: 25px;
+ }
+ ul li{
+    padding:8px 8px 8px 8px;
+    list-style:none ;
+    font-style: italic;
+ }
