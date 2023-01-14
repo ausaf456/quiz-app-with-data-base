@@ -28,9 +28,18 @@
  const app = initializeApp(firebaseConfig);
  const db = getDatabase()
  
+ var password=document.getElementById("passwordd")
  
-
-
+ 
+ 
+ window.submitPass= function (){
+if(password.value==="patanhi"){
+    document.getElementById("show").style.display = "block";
+ document.getElementById("password").style.display = "none";
+}else{
+    alert("Wrong Password")
+}
+}
 
 
 
